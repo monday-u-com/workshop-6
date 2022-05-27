@@ -46,4 +46,4 @@ Your CLI should expose two features (two different commands):
 4. Use the `URLSearchParams` native class in order to build the query string, and append it to the request url.
 5. Handle errors of your API requests, and write logs on each error which include the command arguments and the error details. You'll be using the logger module that you've published during workflow-5!
 6. Create a nice user experience for the users of your CLI - Set a clear description for each command and its arguments.
-7. Use our own published logger - the `mondayu-logger` package in case you don't have your own logger package published.
+7. Install and use our own published logger - the `mondayu-logger` package in case you don't have your own logger package published.
